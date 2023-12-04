@@ -19,7 +19,7 @@
         <revision>1.0.1</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
-        <jenkins.version>2.324</jenkins.version>
+        <jenkins.version>2.346.3</jenkins.version>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     </properties>
 
@@ -50,8 +50,8 @@
             <dependency>
                 <!-- Pick up common dependencies for the selected LTS line: https://github.com/jenkinsci/bom#usage -->
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.319.x</artifactId>
-                <version>1654.vcb_69d035fa_20</version>
+                <artifactId>bom-weekly</artifactId>
+                <version>2612.v3d6a_2128c0ef</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
